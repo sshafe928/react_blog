@@ -7,7 +7,7 @@ const Navbar = ({
 }) => {
     return (
         <>
-        <input type="text" id="search-bar" placeholder="Search..." />
+        <input class="" type="text" id="search-bar" placeholder="Search..." />
         <img src={logo} alt="Bare & Beautiful logo" />
         <ul className="navbar-list">
             <li><a href={spotifyLink}>{spotify}</a></li>

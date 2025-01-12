@@ -1,11 +1,11 @@
+import Footer from '../components/footer'
 
-import './css/Main.css';
 
 function Main() {
   return (
   <>
   
-  
+  <Footer/>
   </>
   );
 }
