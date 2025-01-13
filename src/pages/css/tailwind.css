@@ -2,4 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;  /* Adjust width for horizontal scrollbar */
+    height: 8px; /* Adjust height for vertical scrollbar */
+}
 
+::-webkit-scrollbar-track {
+    background: #333; /* Dark grey background */ 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #666; /* Lighter grey for thumb */
+    border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Slightly darker thumb on hover */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=Cairo:wght@200..1000&display=swap');

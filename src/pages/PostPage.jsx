@@ -12,10 +12,12 @@ const PostPage = ({category, title, img, alt, date, desc, shopimages}) => {
             <div>
                 <h2>Shop My Outfit</h2>
                 {shopimages.map((item) => {
-                    <div key={item.id} className="hover:bg-black hover:opacity-70">
-                        <img src={item.url} alt={item.label} />
-                        <h4>{item.label}</h4>
-                    </div>
+                    return (
+                        <div key={item.id} className="hover:bg-black hover:opacity-70">
+                            <img src={item.url} alt={item.label} />
+                            <h4>{item.label}</h4>
+                        </div>
+                    )
                 })}
             </div>
         </section>

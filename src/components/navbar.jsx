@@ -6,7 +6,7 @@ const Navbar = ({
     spotifyLink = "https://open.spotify.com/playlist/37i9dQZF1EIfImcdp5Ixa4"
 }) => {
     return (
-        <header className="bg-white shadow-[rgba(0,0,15,0.4)_0px_5px_5px_0px]">
+        <header className="bg-white shadow-[rgba(0,0,15,0.4)_0px_5px_10px_0px]">
             <div className="flex justify-between items-center w-full px-4 p-4">
                 
                 <div className="flex items-center space-x-2">
