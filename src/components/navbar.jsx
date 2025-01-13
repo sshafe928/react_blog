@@ -7,7 +7,7 @@ const Navbar = ({
 }) => {
     return (
         <>
-        <div class="flex justify-between items-center w-full px-4">
+        <div class="flex justify-between items-center w-full px-4 p-4">
             <div class="flex items-center space-x-2">
                 <input 
                 type="text" 

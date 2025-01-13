@@ -13,7 +13,7 @@ const Footer = ({
     return (
         <>
         
-            <h2 class="text-center text-xl pb-10">Most Loved Posts</h2>
+            <h2 class="text-center text-xl pb-10 ">Most Loved Posts</h2>
         
             <div class="flex justify-center space-x-20 w-full">
                 <div class="flex flex-col items-center">
