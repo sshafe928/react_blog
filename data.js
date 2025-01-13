@@ -1,9 +1,9 @@
 let outfits = [
             {
             "date": "24-1-3",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Chic Winter Layers",
-            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736784902/winterchic_njuzkj.jpg",
+            "category": "Daily Outfits",
+            "title": "Chic Winter Layers",
+            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736784902/winterchic_njuzkj.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736784902/adidas_hjalme.jpg",
                 "label": "shoes"
@@ -24,9 +24,9 @@ let outfits = [
             },
             {
             "date": "24-1-3",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Casual Street Style",
-            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736786299/sportjacket_xu4g9f.jpg",
+            "category": "Daily Outfits",
+            "title": "Casual Street Style",
+            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736786299/sportjacket_xu4g9f.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736786299/white_windbreaker_yg7uv3.jpg",
                 "label": "White and black windbreaker"
@@ -39,9 +39,9 @@ let outfits = [
             },
             {
             "date": "24-1-3",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Flannel Vibes",
-            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788539/flannel_ty7tqc.jpg",
+            "category": "Daily Outfits",
+            "title": "Flannel Vibes",
+            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788539/flannel_ty7tqc.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788539/checkeredflannel_zbl11j.jpg",
                 "label": "black flannel"
@@ -58,9 +58,9 @@ let outfits = [
             },
             {
             "date": "24-1-3",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Cozy Knitwear",
-            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788838/cardigan_owderx.jpg",
+            "category": "Daily Outfits",
+            "title": "Cozy Knitwear",
+            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788838/cardigan_owderx.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788839/KnitCardigan_naen0e.jpg",
                 "label": "Brown cardigan"
@@ -77,9 +77,9 @@ let outfits = [
             },
             {
             "date": "24-1-3",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Workwear Chic",
-            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789167/workwear_ttdlvl.jpg",
+            "category": "Daily Outfits",
+            "title": "Workwear Chic",
+            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789167/workwear_ttdlvl.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789162/Trousers_lxwryr.jpg",
                 "label": "Work pants"
@@ -96,9 +96,9 @@ let outfits = [
             },
             {
             "date": "24-1-3",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Summer Vibes",
-            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789497/summerfit_hjbyaz.jpg",
+            "category": "Daily Outfits",
+            "title": "Summer Vibes",
+            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789497/summerfit_hjbyaz.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789496/greencamisole_x062rk.jpg",
                 "label": "Green Camisole"
@@ -115,9 +115,9 @@ let outfits = [
             },
             {
             "date": "24-1-3",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Layered Comfort",
-            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790056/Corduroy_mt5dxr.jpg",
+            "category": "Daily Outfits",
+            "title": "Layered Comfort",
+            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790056/Corduroy_mt5dxr.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790055/corduroyjacket_dgmsqm.jpg",
                 "label": "Corduroy jacket"
@@ -134,9 +134,9 @@ let outfits = [
             },
             {
             "date": "24-1-3",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Effortless Elegance",
-            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790433/elegant_lphgav.jpg",
+            "category": "Daily Outfits",
+            "title": "Effortless Elegance",
+            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790433/elegant_lphgav.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790433/LanternSleeve_iyowpa.jpg",
                 "label": "Blue Lantern Sleeve"
@@ -149,9 +149,9 @@ let outfits = [
             },
             {
             "date": "24-2-3",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Short n' Simple",
-            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790605/daily_yp8qp2.jpg",
+            "category": "Daily Outfits",
+            "title": "Short n' Simple",
+            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790605/daily_yp8qp2.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790604/whitetank_vofbbx.jpg",
                 "label": "White Camisole"
@@ -168,9 +168,9 @@ let outfits = [
             },
             {
             "date": "24-2-3",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Autumn Tones",
-            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736792328/Khaki_ooa9zm.jpg",
+            "category": "Daily Outfits",
+            "title": "Autumn Tones",
+            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736792328/Khaki_ooa9zm.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736792327/plaid_yyz4io.jpg",
                 "label": "Plaid cardigan"
