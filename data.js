@@ -1,6 +1,6 @@
 let outfits = [
             {
-            "date": "24-1-3",
+            "date": "01/5/25",
             "postTitle": "Daily Outfits",
             "postSecondTitle": "Chic Winter Layers",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736784902/winterchic_njuzkj.jpg",
@@ -23,7 +23,7 @@ let outfits = [
             "description": "Stay warm and stylish with these cozy layers. A perfect outfit for a chilly winter day."
             },
             {
-            "date": "24-1-3",
+            "date": "12/16/24",
             "postTitle": "Daily Outfits",
             "postSecondTitle": "Casual Street Style",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736786299/sportjacket_xu4g9f.jpg",
@@ -38,7 +38,7 @@ let outfits = [
             "description": "Sporty yet stylish! A casual street style look for those laid-back days."
             },
             {
-            "date": "24-1-3",
+            "date": "11/04/24",
             "postTitle": "Daily Outfits",
             "postSecondTitle": "Flannel Vibes",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788539/flannel_ty7tqc.jpg",
@@ -57,7 +57,7 @@ let outfits = [
             "description": "Bring back the flannel look with high-waisted jeans and a black and white flannel."
             },
             {
-            "date": "24-1-3",
+            "date": "10/12/24",
             "postTitle": "Daily Outfits",
             "postSecondTitle": "Cozy Knitwear",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788838/cardigan_owderx.jpg",
@@ -76,7 +76,7 @@ let outfits = [
             "description": "Soft and snug knitwear that keeps you warm without compromising on style."
             },
             {
-            "date": "24-1-3",
+            "date": "08/28/24",
             "postTitle": "Daily Outfits",
             "postSecondTitle": "Workwear Chic",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789167/workwear_ttdlvl.jpg",
@@ -95,7 +95,7 @@ let outfits = [
             "description": "Elegance meets professionalism with this polished workwear look. Perfect for office days."
             },
             {
-            "date": "24-1-3",
+            "date": "08/12/24",
             "postTitle": "Daily Outfits",
             "postSecondTitle": "Summer Vibes",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789497/summerfit_hjbyaz.jpg",
@@ -114,7 +114,7 @@ let outfits = [
             "description": "Easy breezy summer outfit for those warm, sunny days. Pair with sandals and sunglasses."
             },
             {
-            "date": "24-1-3",
+            "date": "07/02/24",
             "postTitle": "Daily Outfits",
             "postSecondTitle": "Layered Comfort",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790056/Corduroy_mt5dxr.jpg",
@@ -133,7 +133,7 @@ let outfits = [
             "description": "Comfy and layered look for a chilly morning. The perfect balance between comfort and style."
             },
             {
-            "date": "24-1-3",
+            "date": "05/24/24",
             "postTitle": "Daily Outfits",
             "postSecondTitle": "Effortless Elegance",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790433/elegant_lphgav.jpg",
@@ -148,7 +148,7 @@ let outfits = [
             "description": "Keep it simple yet sophisticated with an effortlessly chic outfit. Ideal for a lunch date."
             },
             {
-            "date": "24-2-3",
+            "date": "04/21/24",
             "postTitle": "Daily Outfits",
             "postSecondTitle": "Short n' Simple",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790605/daily_yp8qp2.jpg",
@@ -167,7 +167,7 @@ let outfits = [
             "description": "The perfect combination of simple clothes, featuring sleek lines and modern fabrics."
             },
             {
-            "date": "24-2-3",
+            "date": "04/10/24",
             "postTitle": "Daily Outfits",
             "postSecondTitle": "Autumn Tones",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736792328/Khaki_ooa9zm.jpg",
