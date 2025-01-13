@@ -186,3 +186,4 @@ let outfits = [
             "description": "Embrace the fall with warm autumn tones like burnt orange, browns, and cozy knits."
             }
         ]
+
