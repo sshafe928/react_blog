@@ -6,42 +6,45 @@ const Navbar = ({
     spotifyLink = "https://open.spotify.com/playlist/37i9dQZF1EIfImcdp5Ixa4"
 }) => {
     return (
-        <>
-        <div class="flex justify-between items-center w-full px-4 p-4">
-            <div class="flex items-center space-x-2">
-                <input 
-                type="text" 
-                id="search-bar" 
-                placeholder="Search..." 
-                class="p-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
+        <header className="bg-white shadow-[rgba(0,0,15,0.4)_0px_5px_5px_0px]">
+            <div className="flex justify-between items-center w-full px-4 p-4">
+                
+                <div className="flex items-center space-x-2">
+                    <input 
+                    type="text" 
+                    id="search-bar" 
+                    placeholder="Search..." 
+                    className="p-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    />
+                    <img 
+                    src="path-to-search-icon.png" 
+                    alt="search icon" 
+                    className="w-5 h-5 absolute left-2"  
+                    />
+                </div>
+
+                {/* Logo */}
                 <img 
-                src="path-to-search-icon.png" 
-                alt="search icon" 
-                class="w-5 h-5 absolute left-2"  
+                src={logo} 
+                alt="Bare & Beautiful logo" 
+                className="mx-auto h-12 inline-block"
                 />
+
+                {/* Social media icons */}
+                <ul className="flex space-x-4">
+                    <li>
+                        <a href={spotifyLink}>
+                            <img className="w-6 h-6" src={spotify} alt="Spotify" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href={pintrestLink}>
+                            <img className="w-6 h-6" src={pintrest} alt="Pinterest" />
+                        </a>
+                    </li>
+                </ul>
             </div>
-
-            <img 
-            src={logo} 
-            alt="Bare & Beautiful logo" 
-            class="mx-auto h-12"
-            />
-
-            <ul class="flex space-x-4">
-                <li>
-                    <a href={spotifyLink}>
-                        <img class="w-6 h-6" src={spotify} alt="Spotify" />
-                    </a>
-                </li>
-                <li>
-                    <a href={pintrestLink}>
-                        <img class="w-6 h-6" src={pintrest} alt="Pinterest" />
-                    </a>
-                </li>
-            </ul>
-        </div>
-        </>
+        </header>
     );
 };
 
