@@ -1,9 +1,9 @@
 let outfits = [
             {
-            "date": "24-1-3",
-            "category": "Daily Outfits",
-            "title": "Chic Winter Layers",
-            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736784902/winterchic_njuzkj.jpg",
+            "date": "01/5/25",
+            "postTitle": "Daily Outfits",
+            "postSecondTitle": "Chic Winter Layers",
+            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736784902/winterchic_njuzkj.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736784902/adidas_hjalme.jpg",
                 "label": "shoes"
@@ -23,10 +23,10 @@ let outfits = [
             "description": "Stay warm and stylish with these cozy layers. A perfect outfit for a chilly winter day."
             },
             {
-            "date": "24-1-3",
-            "category": "Daily Outfits",
-            "title": "Casual Street Style",
-            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736786299/sportjacket_xu4g9f.jpg",
+            "date": "12/16/24",
+            "postTitle": "Daily Outfits",
+            "postSecondTitle": "Casual Street Style",
+            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736786299/sportjacket_xu4g9f.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736786299/white_windbreaker_yg7uv3.jpg",
                 "label": "White and black windbreaker"
@@ -38,10 +38,10 @@ let outfits = [
             "description": "Sporty yet stylish! A casual street style look for those laid-back days."
             },
             {
-            "date": "24-1-3",
-            "category": "Daily Outfits",
-            "title": "Flannel Vibes",
-            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788539/flannel_ty7tqc.jpg",
+            "date": "11/04/24",
+            "postTitle": "Daily Outfits",
+            "postSecondTitle": "Flannel Vibes",
+            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788539/flannel_ty7tqc.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788539/checkeredflannel_zbl11j.jpg",
                 "label": "black flannel"
@@ -57,10 +57,10 @@ let outfits = [
             "description": "Bring back the flannel look with high-waisted jeans and a black and white flannel."
             },
             {
-            "date": "24-1-3",
-            "category": "Daily Outfits",
-            "title": "Cozy Knitwear",
-            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788838/cardigan_owderx.jpg",
+            "date": "10/12/24",
+            "postTitle": "Daily Outfits",
+            "postSecondTitle": "Cozy Knitwear",
+            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788838/cardigan_owderx.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788839/KnitCardigan_naen0e.jpg",
                 "label": "Brown cardigan"
@@ -76,10 +76,10 @@ let outfits = [
             "description": "Soft and snug knitwear that keeps you warm without compromising on style."
             },
             {
-            "date": "24-1-3",
-            "category": "Daily Outfits",
-            "title": "Workwear Chic",
-            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789167/workwear_ttdlvl.jpg",
+            "date": "08/28/24",
+            "postTitle": "Daily Outfits",
+            "postSecondTitle": "Workwear Chic",
+            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789167/workwear_ttdlvl.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789162/Trousers_lxwryr.jpg",
                 "label": "Work pants"
@@ -95,10 +95,10 @@ let outfits = [
             "description": "Elegance meets professionalism with this polished workwear look. Perfect for office days."
             },
             {
-            "date": "24-1-3",
-            "category": "Daily Outfits",
-            "title": "Summer Vibes",
-            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789497/summerfit_hjbyaz.jpg",
+            "date": "08/12/24",
+            "postTitle": "Daily Outfits",
+            "postSecondTitle": "Summer Vibes",
+            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789497/summerfit_hjbyaz.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789496/greencamisole_x062rk.jpg",
                 "label": "Green Camisole"
@@ -114,10 +114,10 @@ let outfits = [
             "description": "Easy breezy summer outfit for those warm, sunny days. Pair with sandals and sunglasses."
             },
             {
-            "date": "24-1-3",
-            "category": "Daily Outfits",
-            "title": "Layered Comfort",
-            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790056/Corduroy_mt5dxr.jpg",
+            "date": "07/02/24",
+            "postTitle": "Daily Outfits",
+            "postSecondTitle": "Layered Comfort",
+            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790056/Corduroy_mt5dxr.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790055/corduroyjacket_dgmsqm.jpg",
                 "label": "Corduroy jacket"
@@ -133,10 +133,10 @@ let outfits = [
             "description": "Comfy and layered look for a chilly morning. The perfect balance between comfort and style."
             },
             {
-            "date": "24-1-3",
-            "category": "Daily Outfits",
-            "title": "Effortless Elegance",
-            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790433/elegant_lphgav.jpg",
+            "date": "05/24/24",
+            "postTitle": "Daily Outfits",
+            "postSecondTitle": "Effortless Elegance",
+            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790433/elegant_lphgav.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790433/LanternSleeve_iyowpa.jpg",
                 "label": "Blue Lantern Sleeve"
@@ -148,10 +148,10 @@ let outfits = [
             "description": "Keep it simple yet sophisticated with an effortlessly chic outfit. Ideal for a lunch date."
             },
             {
-            "date": "24-2-3",
-            "category": "Daily Outfits",
-            "title": "Short n' Simple",
-            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790605/daily_yp8qp2.jpg",
+            "date": "04/21/24",
+            "postTitle": "Daily Outfits",
+            "postSecondTitle": "Short n' Simple",
+            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790605/daily_yp8qp2.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790604/whitetank_vofbbx.jpg",
                 "label": "White Camisole"
@@ -167,10 +167,10 @@ let outfits = [
             "description": "The perfect combination of simple clothes, featuring sleek lines and modern fabrics."
             },
             {
-            "date": "24-2-3",
-            "category": "Daily Outfits",
-            "title": "Autumn Tones",
-            "img": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736792328/Khaki_ooa9zm.jpg",
+            "date": "04/10/24",
+            "postTitle": "Daily Outfits",
+            "postSecondTitle": "Autumn Tones",
+            "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736792328/Khaki_ooa9zm.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736792327/plaid_yyz4io.jpg",
                 "label": "Plaid cardigan"

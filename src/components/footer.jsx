@@ -11,7 +11,7 @@ const Footer = ({
     
 }) => {
     return (
-        <footer className="shadow-[rgba(0,0,15,0.4)_0px_-5px_10px_0px] bg-white font-Cairo">
+        <footer id="footer" className="shadow-[rgba(0,0,15,0.4)_0px_-5px_5px_0px] bg-white font-Cairo">
         
             <h2 className="text-center text-xl py-10">Most Loved Posts</h2>
         
