@@ -9,7 +9,7 @@ const ShopItem = ({ Outfit }) => {
             <div className="flex  justify-center items-center min-h-screen">
                 
                 <div className="w-1/4 pr-4">
-                    <h2>{mainTitle}</h2>
+                    <h2 className="font-Cairo">{mainTitle}</h2>
                     <img className="w-full h-auto rounded-lg" src={mainImg} alt="Main image" />
                 </div>
 
@@ -18,7 +18,7 @@ const ShopItem = ({ Outfit }) => {
                         shopImages.map((item, index) => (
                             <div key={index} className="flex items-center space-x-6">
                                 <img className="w-40 h-40 rounded-full" src={item.url} alt={item.label} />
-                                <span className="text-sm">{item.label}</span>
+                                <span className=" font-Cairo text-sm">{item.label}</span>
                             </div>
                         ))
                     ) : (
