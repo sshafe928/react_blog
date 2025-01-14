@@ -5,6 +5,7 @@ const ShopItem = ({ Outfit }) => {
 
     return (
         <>
+        <div className="absolute inset-0 bg-cover bg-center filter blur-lg opacity-5" style={{backgroundImage: "url('https://res.cloudinary.com/dy2nnbnek/image/upload/v1736876998/165acab1-3b95-4c24-9187-c78ed79781da_cowv2w.jpg')", zIndex: -1 }}></div>
             <div className="flex mb-36 mt-12">
                 
                 <div className="w-1/4 pr-4">
