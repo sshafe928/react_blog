@@ -1,19 +1,21 @@
-import React from 'react'
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
-import { outfits } from '../pages/data';
+import React from 'react';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+import { outfits } from '../pages/data';  // Import outfits
 import ShopItem from '../components/ShopItem';
 
 const StorePage = () => {
-return (
-    <>
-    <Navbar/>
+    return (
+        <>
+            <Navbar />
 
-    <ShopItem outfits={outfits} />
+            {outfits.map((outfit, index) => (
+                <ShopItem key={index} Outfit={outfit} />
+            ))}
 
-    <Footer/>
-    </>
-)
-}
+            <Footer />
+        </>
+    );
+};
 
-export default StorePage
+export default StorePage;

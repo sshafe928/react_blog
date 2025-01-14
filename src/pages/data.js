@@ -1,4 +1,4 @@
-let outfits = [
+export const outfits = [
             {
             "date": "01/5/25",
             "postTitle": "Daily Outfits",
