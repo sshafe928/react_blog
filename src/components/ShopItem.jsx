@@ -11,7 +11,7 @@ const ShopItem = ({ Outfit }) => {
 
                 <div className="flex justify-center items-center">
                     <div className="w-1/2 pr-4">
-                        <img className="w-full h-auto rounded-lg" src={mainImg} alt="Main image" />
+                        <img className="w-full h-auto rounded-lg" src={mainImg} alt="Main" />
                     </div>
 
                     <div className="flex flex-col w-1/3 space-y-4 mt-10 items-center">

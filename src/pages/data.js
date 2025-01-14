@@ -1,8 +1,8 @@
 export const outfits = [
             {
             "date": "01/5/25",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Chic Winter Layers",
+            "category": "Daily Outfits",
+            "title": "Chic Winter Layers",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736784902/winterchic_njuzkj.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736784902/adidas_hjalme.jpg",
@@ -20,12 +20,12 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736784902/Browncoat_fnwbzd.jpg",
                 "label": "Brown Coat: COS"
                 }],
-            "description": "Stay warm and stylish with these cozy layers. A perfect outfit for a chilly winter day."
+            "desc": "Stay warm and stylish with these cozy layers. A perfect outfit for a chilly winter day."
             },
             {
             "date": "12/16/24",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Casual Street Style",
+            "category": "Daily Outfits",
+            "title": "Casual Street Style",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736786299/sportjacket_xu4g9f.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736786299/white_windbreaker_yg7uv3.jpg",
@@ -35,12 +35,12 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736786299/leggings_ycftbq.jpg",
                 "label": "Black Leggings: Lululemon"
                 }],
-            "description": "Sporty yet stylish! A casual street style look for those laid-back days."
+            "desc": "Sporty yet stylish! A casual street style look for those laid-back days."
             },
             {
             "date": "11/04/24",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Flannel Vibes",
+            "category": "Daily Outfits",
+            "title": "Flannel Vibes",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788539/flannel_ty7tqc.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788539/checkeredflannel_zbl11j.jpg",
@@ -54,12 +54,12 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788539/jeans_lnrd8d.jpg",
                 "label": "High waisted jeans: Hollister"
                 }],
-            "description": "Bring back the flannel look with high-waisted jeans and a black and white flannel."
+            "desc": "Bring back the flannel look with high-waisted jeans and a black and white flannel."
             },
             {
             "date": "10/12/24",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Cozy Knitwear",
+            "category": "Daily Outfits",
+            "title": "Cozy Knitwear",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788838/cardigan_owderx.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788839/KnitCardigan_naen0e.jpg",
@@ -73,12 +73,12 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788838/whiteT_sgelau.jpg",
                 "label": "White t-shirt: Nordstrom"
                 }],
-            "description": "Soft and snug knitwear that keeps you warm without compromising on style."
+            "desc": "Soft and snug knitwear that keeps you warm without compromising on style."
             },
             {
             "date": "08/28/24",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Workwear Chic",
+            "category": "Daily Outfits",
+            "title": "Workwear Chic",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789167/workwear_ttdlvl.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789162/Trousers_lxwryr.jpg",
@@ -92,12 +92,12 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789162/T-shirtBlack_lotvaa.jpg",
                 "label": "Black long sleeve: Skims"
                 }],
-            "description": "Elegance meets professionalism with this polished workwear look. Perfect for office days."
+            "desc": "Elegance meets professionalism with this polished workwear look. Perfect for office days."
             },
             {
             "date": "08/12/24",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Summer Vibes",
+            "category": "Daily Outfits",
+            "title": "Summer Vibes",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789497/summerfit_hjbyaz.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789496/greencamisole_x062rk.jpg",
@@ -111,12 +111,12 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789496/LinenShorts_swqqdb.jpg",
                 "label": "Linen Shorts: Amazon"
                 }],
-            "description": "Easy breezy summer outfit for those warm, sunny days. Pair with sandals and sunglasses."
+            "desc": "Easy breezy summer outfit for those warm, sunny days. Pair with sandals and sunglasses."
             },
             {
             "date": "07/02/24",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Layered Comfort",
+            "category": "Daily Outfits",
+            "title": "Layered Comfort",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790056/Corduroy_mt5dxr.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790055/corduroyjacket_dgmsqm.jpg",
@@ -130,12 +130,12 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790054/Wide_Leg_Jeans_xkhzxu.jpg",
                 "label": "High Waisted jeans: Abercrombie"
                 }],
-            "description": "Comfy and layered look for a chilly morning. The perfect balance between comfort and style."
+            "desc": "Comfy and layered look for a chilly morning. The perfect balance between comfort and style."
             },
             {
             "date": "05/24/24",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Effortless Elegance",
+            "category": "Daily Outfits",
+            "title": "Effortless Elegance",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790433/elegant_lphgav.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790433/LanternSleeve_iyowpa.jpg",
@@ -145,12 +145,12 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790433/HighWaistBlack_ozzjnx.jpg",
                 "label": "Black Jeans: Abercrombie"
                 }],
-            "description": "Keep it simple yet sophisticated with an effortlessly chic outfit. Ideal for a lunch date."
+            "desc": "Keep it simple yet sophisticated with an effortlessly chic outfit. Ideal for a lunch date."
             },
             {
             "date": "04/21/24",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Short n' Simple",
+            "category": "Daily Outfits",
+            "title": "Short n' Simple",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790605/daily_yp8qp2.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790604/whitetank_vofbbx.jpg",
@@ -164,12 +164,12 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790602/blackpants_ty84sx.jpg",
                 "label": "Black Pants: Slowliving Lifestyle"
                 }],
-            "description": "The perfect combination of simple clothes, featuring sleek lines and modern fabrics."
+            "desc": "The perfect combination of simple clothes, featuring sleek lines and modern fabrics."
             },
             {
             "date": "04/10/24",
-            "postTitle": "Daily Outfits",
-            "postSecondTitle": "Autumn Tones",
+            "category": "Daily Outfits",
+            "title": "Autumn Tones",
             "image": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736792328/Khaki_ooa9zm.jpg",
             "shopimages":[{
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736792327/plaid_yyz4io.jpg",
@@ -183,7 +183,6 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736792326/BLACK_TOP_hkf3pw.jpg",
                 "label": "Black compression top: Poshmark"
                 }],
-            "description": "Embrace the fall with warm autumn tones like burnt orange, browns, and cozy knits."
+            "desc": "Embrace the fall with warm autumn tones like burnt orange, browns, and cozy knits."
             }
         ]
-
