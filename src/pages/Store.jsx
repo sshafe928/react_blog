@@ -24,7 +24,7 @@ const StorePage = () => {
                 
                 {/* Map over outfits to render ShopItem for each outfit */}
                 {outfits.map((outfit, index) => (
-                    <ShopItem key={index} Outfit={outfit} />
+                    <ShopItem key={index} Outfit={outfit} className='bg-white border border-black shadow'/>
                 ))}
                 
                 <Footer />

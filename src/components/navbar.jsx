@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const Navbar = ({
     logo = "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736712381/logo_k3ur2i.png",
     spotify = "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736712557/spotify_uewgjq.png",
@@ -24,23 +26,25 @@ const Navbar = ({
                 </div>
 
                 {/* Logo */}
-                <img 
-                src={logo} 
-                alt="Bare & Beautiful logo" 
-                className="mx-auto h-12 inline-block"
-                />
+                <Link to='/'>
+                    <img 
+                    src={logo} 
+                    alt="Bare & Beautiful logo" 
+                    className="mx-auto h-12 inline-block"
+                    />
+                </Link>
 
                 {/* Social media icons */}
                 <ul className="flex space-x-4">
                     <li>
-                        <a href={spotifyLink}>
+                        <Link to={spotifyLink}>
                             <img className="w-6 h-6" src={spotify} alt="Spotify" />
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href={pintrestLink}>
+                        <Link to={pintrestLink}>
                             <img className="w-6 h-6" src={pintrest} alt="Pinterest" />
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
