@@ -20,7 +20,8 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736784902/Browncoat_fnwbzd.jpg",
                 "label": "Brown Coat: COS"
                 }],
-            "desc": "Stay warm and stylish with these cozy layers. A perfect outfit for a chilly winter day."
+            "desc": "Stay warm and stylish with these cozy layers. A perfect outfit for a chilly winter day.",
+            "page": 1
             },
             {
             "date": "12/16/24",
@@ -35,7 +36,8 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736786299/leggings_ycftbq.jpg",
                 "label": "Black Leggings: Lululemon"
                 }],
-            "desc": "Sporty yet stylish! A casual street style look for those laid-back days."
+            "desc": "Sporty yet stylish! A casual street style look for those laid-back days.",
+            "page": 2
             },
             {
             "date": "11/04/24",
@@ -54,7 +56,8 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788539/jeans_lnrd8d.jpg",
                 "label": "High waisted jeans: Hollister"
                 }],
-            "desc": "Bring back the flannel look with high-waisted jeans and a black and white flannel."
+            "desc": "Bring back the flannel look with high-waisted jeans and a black and white flannel.",
+            "page": 3
             },
             {
             "date": "10/12/24",
@@ -73,7 +76,8 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736788838/whiteT_sgelau.jpg",
                 "label": "White t-shirt: Nordstrom"
                 }],
-            "desc": "Soft and snug knitwear that keeps you warm without compromising on style."
+            "desc": "Soft and snug knitwear that keeps you warm without compromising on style.",
+            "page": 4
             },
             {
             "date": "08/28/24",
@@ -92,7 +96,8 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789162/T-shirtBlack_lotvaa.jpg",
                 "label": "Black long sleeve: Skims"
                 }],
-            "desc": "Elegance meets professionalism with this polished workwear look. Perfect for office days."
+            "desc": "Elegance meets professionalism with this polished workwear look. Perfect for office days.",
+            "page": 5
             },
             {
             "date": "08/12/24",
@@ -111,7 +116,8 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736789496/LinenShorts_swqqdb.jpg",
                 "label": "Linen Shorts: Amazon"
                 }],
-            "desc": "Easy breezy summer outfit for those warm, sunny days. Pair with sandals and sunglasses."
+            "desc": "Easy breezy summer outfit for those warm, sunny days. Pair with sandals and sunglasses.",
+            "page": 6
             },
             {
             "date": "07/02/24",
@@ -130,7 +136,8 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790054/Wide_Leg_Jeans_xkhzxu.jpg",
                 "label": "High Waisted jeans: Abercrombie"
                 }],
-            "desc": "Comfy and layered look for a chilly morning. The perfect balance between comfort and style."
+            "desc": "Comfy and layered look for a chilly morning. The perfect balance between comfort and style.",
+            "page": 7
             },
             {
             "date": "05/24/24",
@@ -145,7 +152,8 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790433/HighWaistBlack_ozzjnx.jpg",
                 "label": "Black Jeans: Abercrombie"
                 }],
-            "desc": "Keep it simple yet sophisticated with an effortlessly chic outfit. Ideal for a lunch date."
+            "desc": "Keep it simple yet sophisticated with an effortlessly chic outfit. Ideal for a lunch date.",
+            "page": 8
             },
             {
             "date": "04/21/24",
@@ -164,7 +172,8 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736790602/blackpants_ty84sx.jpg",
                 "label": "Black Pants: Slowliving Lifestyle"
                 }],
-            "desc": "The perfect combination of simple clothes, featuring sleek lines and modern fabrics."
+            "desc": "The perfect combination of simple clothes, featuring sleek lines and modern fabrics.",
+            "page": 9
             },
             {
             "date": "04/10/24",
@@ -183,6 +192,7 @@ export const outfits = [
                 "url": "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736792326/BLACK_TOP_hkf3pw.jpg",
                 "label": "Black compression top: Poshmark"
                 }],
-            "desc": "Embrace the fall with warm autumn tones like burnt orange, browns, and cozy knits."
+            "desc": "Embrace the fall with warm autumn tones like burnt orange, browns, and cozy knits.",
+            "page": 10
             }
         ]
