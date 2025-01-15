@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { AiOutlineSearch } from "react-icons/ai";
+
 
 const Navbar = ({
     logo = "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736712381/logo_k3ur2i.png",
@@ -19,7 +19,6 @@ const Navbar = ({
                     placeholder="Search..." 
                     className="p-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
-                    <AiOutlineSearch className="w-5 h-5 absolute left-2"/>
                 </div>
 
                 {/* Logo */}
