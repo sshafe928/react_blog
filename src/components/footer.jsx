@@ -1,3 +1,4 @@
+import { useState } from 'react'
 
 const Footer = ({
     profileImage1 = "https://res.cloudinary.com/dy2nnbnek/image/upload/v1736706239/Cyflymder_Thread_of_Screw_False_Two-piece_Polo_Collar_Sweatshirts_Women_Korean_Patch_Fashion_Loose_Female_Pullovers_Autumn_Winter_Y2k_Tops_ndkaar.jpg",
@@ -10,6 +11,13 @@ const Footer = ({
     desc4 = "Oversized"
     
 }) => {
+    const [isSubscribed, setIsSubscribed] = useState(false);
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setIsSubscribed(true);  // Set subscription state to true after submission
+    };
+
     return (
         <footer id="footer" className="shadow-[rgba(0,0,15,0.4)_0px_-5px_5px_0px] bg-white font-Cairo">
         
@@ -37,11 +45,38 @@ const Footer = ({
 
         
             <div className="flex justify-center items-center w-full mt-20 mb-5">
-                <h1 className="pr-10">JOIN OUR MAILING LIST</h1>
-                <form action="/" method="POST" className="flex items-center w-2/5">
-                    <input type="email" name="email" placeholder="Email" required className="block w-full p-2 mr-2 border-[1px] border-black rounded-md focus:outline-none focus:ring-1 focus:ring-black"/>
-                    <button type="submit" className="p-2 bg-gray-600 text-center text-white rounded-md hover:bg-gray-500 focus:outline-none w-40"> Subscribe </button>
-                </form>
+            <h1 className="pr-10">JOIN OUR MAILING LIST</h1>
+                <div className="flex items-center w-2/5">
+                    {!isSubscribed && (
+                        <>
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Email"
+                                required
+                                className="block w-full p-2 mr-2 border-[1px] border-black rounded-md focus:outline-none focus:ring-1 focus:ring-black"
+                            />
+                            <button
+                                type="submit"
+                                className="p-2 bg-gray-600 text-center text-white rounded-md hover:bg-gray-500 focus:outline-none w-40"
+                                onClick={handleSubmit}
+                            >
+                                Subscribe
+                            </button>
+                        </>
+                    )}
+                {isSubscribed && (
+                    <>
+                        <button
+                            type="button"
+                            disabled
+                            className="p-2 bg-gray-600 text-center text-white rounded-md hover:bg-gray-500 focus:outline-none w-40"
+                        >
+                            Subscribed!
+                        </button>
+                    </>
+                )}
+                </div>
             </div>
             <p className="text-center text-xs mb-1">© COPYRIGHT 2025. BARE & BEAUTIFUL. ALL RIGHTS RESERVED. DESIGNED BY SABRINA & NICO</p>
 
