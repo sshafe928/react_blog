@@ -1,21 +1,34 @@
 import Footer from '../components/footer'
 import Navbar from '../components/navbar';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Post from '../components/Post';
 import { outfits } from '../pages/data'
 
 
 function Main() {
   const [showPosts, setShowPosts] = useState(false)
+  const [searchQuery, setSearchQuery] = useState('');
+  const [filteredPosts, setFilteredPosts] = useState(outfits);
 
   const togglePosts = () => {
     setShowPosts(!showPosts)
   }
 
+  const handleSearch = (query) => {
+    setSearchQuery(query);
+  };
+
+  useEffect(() => {
+    const filtered = outfits.filter(post =>
+        post.title.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+    setFilteredPosts(filtered);
+  }, [searchQuery]); // Trigger filtering when searchQuery changes
+
   return (
   <>
   <div className="bg-gray-200">
-    <Navbar/>
+    <Navbar onSearch={handleSearch}/>
     <img className="absolute left-12 max-w-40 top-28" src="https://res.cloudinary.com/dy2nnbnek/image/upload/v1736804643/Screenshot__64_-removebg-preview_mzgu51.png" alt="Star man" />
     <div className="flex justify-center text-4xl">
       <h1 class="p-20 font-Cactus">Bare & Beautiful</h1>
@@ -42,7 +55,7 @@ function Main() {
       <>
         <hr className="mb-8 w-5/6 border-black mx-auto" />  {/* Render this only once before posts */}
         <div className='flex flex-wrap justify-start'>
-          {outfits.map((post) => {
+          {filteredPosts.map((post) => {
             return (
               <div className="w-1/2 flex justify-around">
                 <Post key={post.id} {...post}/>
@@ -52,7 +65,7 @@ function Main() {
         </div>
       </>
       
-) : null}
+    ) : null}
     <Footer/>
   </div>
   </>
