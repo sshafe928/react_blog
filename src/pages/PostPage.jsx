@@ -1,5 +1,8 @@
+import CommentForm from '../components/CommentForm';
+
 const PostPage = ({category, title, img, date, desc, shopimages}) => {
     return (
+        <>
         <section>
             <header>
                 <h4>{category}</h4>
@@ -23,6 +26,10 @@ const PostPage = ({category, title, img, date, desc, shopimages}) => {
                 </div>
             </div>
         </section>
+        <section>
+            <CommentForm />
+        </section>
+        </>
     )
 }
 
