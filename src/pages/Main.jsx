@@ -37,7 +37,7 @@ function Main() {
     <div className="flex justify-center gap-16 py-8 px-8 pb-24">
         <div className="relative w-96 h-96 bg-white shadow-lg border-[15px] border-white overflow-hidden">
           <img src="https://res.cloudinary.com/dy2nnbnek/image/upload/v1736801834/a5031e26-01c9-4e30-a3b5-c33198ad7eff_hzca4r.jpg" alt="Polaroid" className="w-full h-full object-cover" />
-          <button className="font-Cairo absolute w-4/5 bottom-36 left-1/2 transform -translate-x-1/2 px-4 py-4 bg-white text-black bg-opacity-80 focus:outline-none" onClick={togglePosts}> OUTFIT JOURNAL </button>
+          <button className="  hover:animate-wiggle font-Cairo absolute w-4/5 bottom-36 left-1/2 transform -translate-x-1/2 px-4 py-4 bg-white text-black bg-opacity-80 focus:outline-none" onClick={togglePosts}> OUTFIT JOURNAL </button>
         </div>
 
         <div className="relative w-96 h-96 bg-white shadow-lg border-[15px] border-white overflow-hidden">

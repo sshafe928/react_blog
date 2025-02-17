@@ -9,7 +9,7 @@ const Post = ({title, date, image, page, desc}) => {
 }
   return (
     <div className='bg-white py-6 shadow-lg text-center w-2/5 mb-8 relative'>
-      <header>
+      <header >
         <h6 className="font-Cairo uppercase text-sm text-gray-500">Daily Outfits</h6>
         <Link to={`/page/${page}`} className="font-Cactus text-xl text-gray-900 uppercase">{truncate(title, 40)}</Link>
         <h6 className="font-Cairo text-sm text-gray-500 my-1">{date}</h6>
